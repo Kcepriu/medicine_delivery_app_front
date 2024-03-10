@@ -1,0 +1,16 @@
+.Cart {
+  display: flex;
+  border: 1px solid #9e9e9e;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+
+  &.active {
+    background-color: #e0e0e0;
+  }
+
+  &.isHover:hover {
+    background-color: #757575;
+  }
+}

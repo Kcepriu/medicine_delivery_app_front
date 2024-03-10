@@ -1,0 +1,14 @@
+.WrapList {
+  height: calc(100% - 10px);
+  overflow: auto
+}
+
+.ListShop {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px 30px;
+  list-style-type: none;
+  // overflow: scroll;
+
+}

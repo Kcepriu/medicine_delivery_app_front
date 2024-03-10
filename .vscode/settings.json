@@ -1,0 +1,14 @@
+{  
+     "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },  
+    "[css][scss][less]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+    },
+     "css.lint.unknownAtRules": "ignore"
+
+}
+

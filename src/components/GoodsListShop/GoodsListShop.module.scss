@@ -1,0 +1,17 @@
+.WrapList {
+  height: calc(100% - 10px);
+  overflow: auto
+}
+
+.ListGoods {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+.Goods {
+  width: calc((100% - 16px)/2);
+}

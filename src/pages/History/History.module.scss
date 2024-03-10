@@ -1,0 +1,61 @@
+.WrapPage {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex-grow: 1;
+  overflow: hidden;
+  border: 1px solid #9e9e9e;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.WrapFilter {
+  border: 1px solid #9e9e9e;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.WrapOrders {
+  border: 1px solid #9e9e9e;
+  border-radius: 10px;
+  flex-grow: 1;
+  overflow: auto;
+  padding: 10px;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0 32px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.WrapInput {
+  display: flex;
+  flex-direction: column;
+  gap: 4px
+}
+
+.Label {
+  margin-left: 8px;
+  font-size: 14px;
+}
+
+.Input {
+  padding: 8px;
+  border-radius: 10px;
+  border: 1px solid #9e9e9e;
+  font-size: 16px;
+}
+
+.ListOrders {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  list-style-type: none;
+}
